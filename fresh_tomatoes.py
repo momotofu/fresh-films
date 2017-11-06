@@ -80,7 +80,7 @@ main_page_head = '''
         });
     </script>
 </head>
-'''
+'''  # NOQA
 
 # The main page layout and title bar
 main_page_content = '''
@@ -115,7 +115,7 @@ main_page_content = '''
     </div>
   </body>
 </html>
-'''
+'''  # NOQA
 
 # A single movie entry html template
 movie_tile_content = '''
@@ -123,7 +123,8 @@ movie_tile_content = '''
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
 </div>
-'''
+'''  # NOQA
+
 
 def create_movie_tiles_content(movies):
     """
@@ -135,9 +136,10 @@ def create_movie_tiles_content(movies):
     content = ''
     for movie in movies:
         # Extract the youtube ID from the url
-        youtube_id_match = re.search(r'(?<=v=)[^&#]+', movie.trailer_youtube_url)
-        youtube_id_match = youtube_id_match or re.search(r'(?<=be/)[^&#]+', movie.trailer_youtube_url)
-        trailer_youtube_id = youtube_id_match.group(0) if youtube_id_match else None
+        youtube_id_match = re.search(r'(?<=v=)[^&#]+',
+                                     movie.trailer_youtube_url)
+        youtube_id_match = youtube_id_match or re.search(r'(?<=be/)[^&#]+', movie.trailer_youtube_url)  # NOQA
+        trailer_youtube_id = youtube_id_match.group(0) if youtube_id_match else None  # NOQA
 
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
@@ -146,6 +148,7 @@ def create_movie_tiles_content(movies):
             trailer_youtube_id=trailer_youtube_id
         )
     return content
+
 
 def open_movies_page(movies):
     """
@@ -156,16 +159,17 @@ def open_movies_page(movies):
     fresh_tomatoes.html.
     """
 
-     # Create or overwrite the output file
-     output_file = open('fresh_tomatoes.html', 'w')
+    # Create or overwrite the output file
+    output_file = open('fresh_tomatoes.html', 'w')
 
-    # Replace the placeholder for the movie tiles with the actual dynamically generated content
-    rendered_content = main_page_content.format(movie_tiles=create_movie_tiles_content(movies))
+    # Replace the placeholder for the movie tiles with
+    # the actual dynamically generated content
+    rendered_content = main_page_content.format(movie_tiles=create_movie_tiles_content(movies))  # NOQA
 
-     # Output the file
-     output_file.write(main_page_head + rendered_content)
-     output_file.close()
+    # Output the file
+    output_file.write(main_page_head + rendered_content)
+    output_file.close()
 
-     # open the output file in the browser
-     url = os.path.abspath(output_file.name)
-     webbrowser.open('file://' + url, new=2) # open in a new tab, if possible
+    # open the output file in the browser
+    url = os.path.abspath(output_file.name)
+    webbrowser.open('file://' + url, new=2)  # open in a new tab, if possible
