@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Movie():
     """
     A Python data structure to store movie related information
