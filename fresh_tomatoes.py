@@ -99,7 +99,7 @@ main_page_content = '''
         </div>
       </div>
     </div>
-    
+
     <!-- Main Page Content -->
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -126,6 +126,11 @@ movie_tile_content = '''
 '''
 
 def create_movie_tiles_content(movies):
+    """
+    Extract relevant movie data from python data structurs,
+    and then interplate that data into an HTML string template.
+    """
+
     # The HTML content for this section of the page
     content = ''
     for movie in movies:
@@ -143,16 +148,24 @@ def create_movie_tiles_content(movies):
     return content
 
 def open_movies_page(movies):
-  # Create or overwrite the output file
-  output_file = open('fresh_tomatoes.html', 'w')
+    """
+    Combines movie string templates with
+    enclosing page content. Writes the
+    code to fresh_tomatoes.html, and then
+    opens a browser with a local path to
+    fresh_tomatoes.html.
+    """
 
-  # Replace the placeholder for the movie tiles with the actual dynamically generated content
-  rendered_content = main_page_content.format(movie_tiles=create_movie_tiles_content(movies))
+     # Create or overwrite the output file
+     output_file = open('fresh_tomatoes.html', 'w')
 
-  # Output the file
-  output_file.write(main_page_head + rendered_content)
-  output_file.close()
+    # Replace the placeholder for the movie tiles with the actual dynamically generated content
+    rendered_content = main_page_content.format(movie_tiles=create_movie_tiles_content(movies))
 
-  # open the output file in the browser
-  url = os.path.abspath(output_file.name)
-  webbrowser.open('file://' + url, new=2) # open in a new tab, if possible
+     # Output the file
+     output_file.write(main_page_head + rendered_content)
+     output_file.close()
+
+     # open the output file in the browser
+     url = os.path.abspath(output_file.name)
+     webbrowser.open('file://' + url, new=2) # open in a new tab, if possible
