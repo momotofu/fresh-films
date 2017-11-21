@@ -3,8 +3,11 @@ import fresh_tomatoes
 
 # Create variables to hold media.Movie data structures
 planet_earth = media.Movie("Planet Earth",
-                           "A visual journey covering the wonders of planet Earth",
-                           "https://i.pinimg.com/736x/98/2f/cc/982fcc3212d1dab93f99bee02725c9cc--planet-earth-documentary-bbc-planet-earth.jpg",
+                           ("A visual journey covering the wonders"
+			    " of planet Earth"),
+                           ("https://i.pinimg.com/736x/98/2f/cc/98"
+			    "2fcc3212d1dab93f99bee02725c9cc--planet"
+			    "-earth-documentary-bbc-planet-earth.jpg"),
                            "https://www.youtube.com/watch?v=tiVNk6_0GdY")
 
 prince_of_egypt = media.Movie("Prince of Egypt",
@@ -18,7 +21,7 @@ natural_curiosities = media.Movie("Natural Curiosities",
                                   "https://www.youtube.com/watch?v=hsHtu03G0e0")
 
 patterns_of_evidence = media.Movie("Patterns of Evidence",
-                                   "What is the validity of history found in the Bible? Is it fact or fiction? What does the hard evidence really have to say about the foundational story of the Old Testament: the Exodus...",
+                                  ("What is the validity of history found in the Bible? Is it fact or fiction? What does the hard evidence really have to say about the foundational story of the Old Testament: the Exodus...",
                                    "https://s-media-cache-ak0.pinimg.com/originals/8d/14/38/8d14381ea548684ba7fef6c218912afc.jpg",
                                    "https://www.youtube.com/watch?v=2assFIyLInE")
 
