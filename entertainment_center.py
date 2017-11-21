@@ -40,27 +40,33 @@ sound_of_music = media.Movie("Sound of Music",
                              "https://www.youtube.com/watch?v=TRPEpJHI9zg")
 
 the_grand_budapest_hotel = media.Movie("The Grand Budapest",
-                                       "The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
+                                      ("The adventures of Gustave H, a "
+                                       "legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
                                        "https://s-media-cache-ak0.pinimg.com/originals/48/08/cd/4808cde63ff708572be687970f979cfe.jpg",
                                        "https://www.youtube.com/watch?v=1Fg5iWmQjwk")
 
 the_matrix = media.Movie("The Matrix",
-                         "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-                         "https://images-na.ssl-images-amazon.com/images/I/51EG732BV3L.jpg",
+                        ("A computer hacker learns from mysterious rebels"
+                         " about the true nature of his reality and his"
+                         " role in the war against its controllers."),
+                        ("https://images-na.ssl-images-amazon.com/images/I/"
+                         "51EG732BV3L.jpg"),
                          "https://www.youtube.com/watch?v=m8e-FF8MsqU")
 
 the_karate_kid = media.Movie("The Karate Kid",
-                             "A martial arts master agrees to teach karate to a bullied teenager.",
-                             "http://thegalileo.co.za/wp-content/uploads/2015/09/a1r6Azn2WfeXAx9p2TKXOpOaGlx.jpg",
+                            ("A martial arts master agrees to teach karate"
+                             "to a bullied teenager."),
+                            ("http://thegalileo.co.za/wp-content/uploads"
+                             "/2015/09/a1r6Azn2WfeXAx9p2TKXOpOaGlx.jpg"),
                              "https://www.youtube.com/watch?v=n7JhKCQnEqQ")
 
 the_last_samurai = media.Movie("The Last Samurai",
-                               ("An American military advisor embraces"
-                                " the Samurai culture he was hired to"
-                                " destroy after he is captured in battle."),
-                               ("https://static.rogerebert.com/uploads"
-                                "/movie/movie_poster/the-last-samurai-2003"
-                                "/large_cRz4FRx731ulws6zHuQVaDXpx73.jpg",
+                              ("An American military advisor embraces"
+                               " the Samurai culture he was hired to"
+                               " destroy after he is captured in battle."),
+                              ("https://static.rogerebert.com/uploads"
+                               "/movie/movie_poster/the-last-samurai-2003"
+                               "/large_cRz4FRx731ulws6zHuQVaDXpx73.jpg",
                                "https://www.youtube.com/watch?v=T50_qHEOahQ")
 
 samurai_jack = media.Movie("Samurai Jack",
