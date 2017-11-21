@@ -58,9 +58,13 @@ the_karate_kid = media.Movie("The Karate Kid",
                              "https://www.youtube.com/watch?v=n7JhKCQnEqQ")  # NOQA
 
 the_last_samurai = media.Movie("The Last Samurai",
-                               "An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle.",  # NOQA
-                               "https://static.rogerebert.com/uploads/movie/movie_poster/the-last-samurai-2003/large_cRz4FRx731ulws6zHuQVaDXpx73.jpg",  # NOQA
-                               "https://www.youtube.com/watch?v=T50_qHEOahQ")  # NOQA
+                               "An American military advisor embraces \
+                               the Samurai culture he was hired to \
+                               destroy after he is captured in battle.",
+                               "https://static.rogerebert.com/uploads\
+                               /movie/movie_poster/the-last-samurai-2003\
+                               /large_cRz4FRx731ulws6zHuQVaDXpx73.jpg",
+                               "https://www.youtube.com/watch?v=T50_qHEOahQ")
 
 samurai_jack = media.Movie("Samurai Jack",
                            "A samurai warrior fights against the evil entity that took him away from his home world.",  # NOQA
