@@ -4,11 +4,11 @@ import fresh_tomatoes
 # Create variables to hold media.Movie data structures
 planet_earth = media.Movie("Planet Earth",
                            ("A visual journey covering the wonders"
-			    " of planet Earth"),
+			                " of planet Earth"),
                            ("https://i.pinimg.com/736x/98/2f/cc/98"
-			    "2fcc3212d1dab93f99bee02725c9cc--planet"
-			    "-earth-documentary-bbc-planet-earth.jpg"),
-                           "https://www.youtube.com/watch?v=tiVNk6_0GdY")
+			                "2fcc3212d1dab93f99bee02725c9cc--planet"
+			                "-earth-documentary-bbc-planet-earth.jpg",
+                            "https://www.youtube.com/watch?v=tiVNk6_0GdY")
 
 prince_of_egypt = media.Movie("Prince of Egypt",
                               "An Egyptian prince learns of his identity as a Hebrew and his destiny to become the chosen deliverer of his people.",
@@ -61,7 +61,7 @@ sound_of_music = media.Movie("Sound of Music",
 			     " a governess to the children of a Naval"
                              " officer widower."),
                             ("http://loyd-theater.com/movie-collect-1/20th/"
-		  	     "sound-of-music/sound-dvd.jpg"),
+			     "sound-of-music/sound-dvd.jpg"),
                              "https://www.youtube.com/watch?v=TRPEpJHI9zg")
 
 the_grand_budapest_hotel = media.Movie("The Grand Budapest",
