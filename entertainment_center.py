@@ -13,6 +13,9 @@ prince_of_egypt = media.Movie("Prince of Egypt",
                               "https://www.youtube.com/watch?v=zmBDY-fSlIs")
 
 natural_curiosities = media.Movie("Natural Curiosities",
+                                  "David Attenborough presents a collection of his favourite natural curiosities found throughout the animal kingdom from armoured giants to crafty insects.",
+                                  "https://image.tmdb.org/t/p/original/cd7eNiMyxHCRTdCYBTPAEQF7Ec3.jpg",
+                                  "https://www.youtube.com/watch?v=hsHtu03G0e0")
 
 patterns_of_evidence = media.Movie("Patterns of Evidence",
                                    "What is the validity of history found in the Bible? Is it fact or fiction? What does the hard evidence really have to say about the foundational story of the Old Testament: the Exodus...",
@@ -20,30 +23,57 @@ patterns_of_evidence = media.Movie("Patterns of Evidence",
                                    "https://www.youtube.com/watch?v=2assFIyLInE")
 
 indie_game = media.Movie("Indie Game",
-                         "A documentary that follows the journeys of indie game developers as they create games and release those works, and themselves, to the world.",
-                         "http://www.indiegamethemovie.com/storage/post-images/2011-posts/nov-2011/POSTER_SD_PIXEL.jpg?__SQUARESPACE_CACHEVERSION=1322687529780",
+                        ("A documentary that follows the journeys"
+			 " of indie game developers as they create"
+			 " games and release those works, and themselves,"
+			 " to the world."),
+                        ("http://www.indiegamethemovie.com/storage/"
+		         "post-images/2011-posts/nov-2011/POSTER_SD_PIXEL.jpg?"
+		         "__SQUARESPACE_CACHEVERSION=1322687529780"),
                          "https://www.youtube.com/watch?v=GhaT78i1x2M")
 
 batman_begins = media.Movie("Batman Begins",
-                            "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from the corruption that Scarecrow and the League of Shadows have cast upon it.",
-                            "https://s-media-cache-ak0.pinimg.com/originals/21/d6/39/21d6398a3369280670857c4021aef42b.jpg",
+                           ("After training with his mentor, Batman begins"
+			    " his fight to free crime-ridden Gotham City"
+			    " from the corruption that Scarecrow and the"
+			    " League of Shadows have cast upon it."),
+                           ("https://s-media-cache-ak0.pinimg.com/originals"
+			    "/21/d6/39/21d6398a3369280670857c4021aef42b.jpg"),
                             "https://www.youtube.com/watch?v=vak9ZLfhGnQ")
 
 jago = media.Movie("Jago: A Life Underwater",
-                   "An award-winning documentary about Rohani, an 80-year-old hunter who dives on a single breath descending to great depths for several minutes. Set against the spectacular backdrop of the Togian Islands of Indonesia.",
-                   "https://images-na.ssl-images-amazon.com/images/M/MV5BMzExOTAxODc4OF5BMl5BanBnXkFtZTgwNTczMjE0NzE@._V1_SY1000_CR0,0,699,1000_AL_.jpg",
+                  ("An award-winning documentary about Rohani,"
+ 		   " an 80-year-old hunter who dives on a single"
+ 		   " breath descending to great depths for several"
+		   " minutes. Set against the spectacular backdrop"
+		   " of the Togian Islands of Indonesia."),
+                  ("https://images-na.ssl-images-amazon.com/"
+		   "images/M/MV5BMzExOTAxODc4OF5BMl5BanBnXkF"
+		   "tZTgwNTczMjE0NzE@._V1_SY1000_CR0,0,699,1"
+		   "000_AL_.jpg"),
                    "https://www.youtube.com/watch?v=rVVI3Ta--No")
 
 sound_of_music = media.Movie("Sound of Music",
-                             "A woman leaves an Austrian convent to become a governess to the children of a Naval officer widower.",
-                             "http://loyd-theater.com/movie-collect-1/20th/sound-of-music/sound-dvd.jpg",
+                            ("A woman leaves an Austrian convent to become"
+			     " a governess to the children of a Naval"
+                             " officer widower."),
+                            ("http://loyd-theater.com/movie-collect-1/20th/"
+		  	     "sound-of-music/sound-dvd.jpg"),
                              "https://www.youtube.com/watch?v=TRPEpJHI9zg")
 
 the_grand_budapest_hotel = media.Movie("The Grand Budapest",
                                       ("The adventures of Gustave H, a "
-                                       "legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
-                                       "https://s-media-cache-ak0.pinimg.com/originals/48/08/cd/4808cde63ff708572be687970f979cfe.jpg",
-                                       "https://www.youtube.com/watch?v=1Fg5iWmQjwk")
+                                       "legendary concierge at a famous"
+                                       " hotel from the fictional Republic"
+                                       " of Zubrowka between the first and"
+                                       " second World Wars, and Zero Moustafa,"
+                                       " the lobby boy who becomes his most"
+                                       " trusted friend."),
+                                      ("https://s-media-cache-ak0.pinimg.com/"
+                                       "originals/48/08/cd/4808cde63ff708572b"
+                                       "e687970f979cfe.jpg"),
+                                      ("https://www.youtube.com/watch?v=1Fg5i"
+                                       "WmQjwk"))
 
 the_matrix = media.Movie("The Matrix",
                         ("A computer hacker learns from mysterious rebels"
@@ -66,7 +96,7 @@ the_last_samurai = media.Movie("The Last Samurai",
                                " destroy after he is captured in battle."),
                               ("https://static.rogerebert.com/uploads"
                                "/movie/movie_poster/the-last-samurai-2003"
-                               "/large_cRz4FRx731ulws6zHuQVaDXpx73.jpg",
+                               "/large_cRz4FRx731ulws6zHuQVaDXpx73.jpg"),
                                "https://www.youtube.com/watch?v=T50_qHEOahQ")
 
 samurai_jack = media.Movie("Samurai Jack",
