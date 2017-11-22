@@ -21,9 +21,17 @@ natural_curiosities = media.Movie("Natural Curiosities",
                                   "https://www.youtube.com/watch?v=hsHtu03G0e0")
 
 patterns_of_evidence = media.Movie("Patterns of Evidence",
-                                  ("What is the validity of history found in the Bible? Is it fact or fiction? What does the hard evidence really have to say about the foundational story of the Old Testament: the Exodus...",
-                                   "https://s-media-cache-ak0.pinimg.com/originals/8d/14/38/8d14381ea548684ba7fef6c218912afc.jpg",
-                                   "https://www.youtube.com/watch?v=2assFIyLInE")
+                                   ("What is the validity of history found"
+                                    " in the Bible? Is it fact or fiction?"
+                                    " What does the hard evidence really"
+                                    " have to say about the foundational"
+                                    " story of the Old Testament: the
+                                    " Exodus..."),
+                                   ("https://s-media-cache-ak0.pinimg.com"
+                                    "/originals/8d/14/38/8d14381ea548684b"
+                                    "a7fef6c218912afc.jpg"),
+                                   ("https://www.youtube.com/watch?v=2ass"
+                                    "FIyLInE"))
 
 indie_game = media.Movie("Indie Game",
                         ("A documentary that follows the journeys"
