@@ -103,3 +103,4 @@ movies_list = [the_matrix, indie_game, the_karate_kid,
 
 # Serve html page in a browser containing movies
 fresh_tomatoes.open_movies_page(movies_list)
+
