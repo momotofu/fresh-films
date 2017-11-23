@@ -4,33 +4,33 @@ import fresh_tomatoes
 # Create variables to hold media.Movie data structures
 planet_earth = media.Movie(
 	"Planet Earth",
-   	"A visual journey covering the wonders of planet Earth",
-   	"https://i.pinimg.com/736x/98/2f/cc/982fcc3212d1dab93f99bee02725c9cc--planet-earth-documentary-bbc-planet-earth.jpg",
+	"A visual journey covering the wonders of planet Earth",
+	"https://i.pinimg.com/736x/98/2f/cc/982fcc3212d1dab93f99bee02725c9cc--planet-earth-documentary-bbc-planet-earth.jpg",
 	"https://www.youtube.com/watch?v=tiVNk6_0GdY")
 
 prince_of_egypt = media.Movie(
-    	"Prince of Egypt",
-    	"An Egyptian prince learns of his identity as a Hebrew and his destiny to become the chosen deliverer of his people.",
-    	"https://images-na.ssl-images-amazon.com/images/M/MV5BOWNjMjgyNmMtNWMzZC00YjI4LWI1NmUtMTY0ZTA0ZDQ4Y2EwXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_.jpg",
-    	"https://www.youtube.com/watch?v=zmBDY-fSlIs")
+	"Prince of Egypt",
+	"An Egyptian prince learns of his identity as a Hebrew and his destiny to become the chosen deliverer of his people.",
+	"https://images-na.ssl-images-amazon.com/images/M/MV5BOWNjMjgyNmMtNWMzZC00YjI4LWI1NmUtMTY0ZTA0ZDQ4Y2EwXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_.jpg",
+	"https://www.youtube.com/watch?v=zmBDY-fSlIs")
 
 natural_curiosities = media.Movie(
-    	"Natural Curiosities",
-    	"David Attenborough presents a collection of his favourite natural curiosities found throughout the animal kingdom from armoured giants to crafty insects.",
-    	"https://image.tmdb.org/t/p/original/cd7eNiMyxHCRTdCYBTPAEQF7Ec3.jpg",
-    	"https://www.youtube.com/watch?v=hsHtu03G0e0")
+	"Natural Curiosities",
+	"David Attenborough presents a collection of his favourite natural curiosities found throughout the animal kingdom from armoured giants to crafty insects.",
+	"https://image.tmdb.org/t/p/original/cd7eNiMyxHCRTdCYBTPAEQF7Ec3.jpg",
+	"https://www.youtube.com/watch?v=hsHtu03G0e0")
 
 patterns_of_evidence = media.Movie(
-    	"Patterns of Evidence",
-    	"What is the validity of history found in the Bible? Is it fact or fiction? What does the hard evidence really have to say about the foundational story of the Old Testament: the Exodus...",
-    	"https://s-media-cache-ak0.pinimg.com/originals/8d/14/38/8d14381ea548684ba7fef6c218912afc.jpg",
-    	"https://www.youtube.com/watch?v=2assFIyLInE")
+	"Patterns of Evidence",
+	"What is the validity of history found in the Bible? Is it fact or fiction? What does the hard evidence really have to say about the foundational story of the Old Testament: the Exodus...",
+	"https://s-media-cache-ak0.pinimg.com/originals/8d/14/38/8d14381ea548684ba7fef6c218912afc.jpg",
+	"https://www.youtube.com/watch?v=2assFIyLInE")
 
 indie_game = media.Movie(
 	"Indie Game",
-    	"A documentary that follows the journeys of indie game developers as they create games and release those works, and themselves, to the world.",
-    	"http://www.indiegamethemovie.com/storage/post-images/2011-posts/nov-2011/POSTER_SD_PIXEL.jpg?__SQUARESPACE_CACHEVERSION=1322687529780",
-    	"https://www.youtube.com/watch?v=GhaT78i1x2M")
+	"A documentary that follows the journeys of indie game developers as they create games and release those works, and themselves, to the world.",
+	"http://www.indiegamethemovie.com/storage/post-images/2011-posts/nov-2011/POSTER_SD_PIXEL.jpg?__SQUARESPACE_CACHEVERSION=1322687529780",
+	"https://www.youtube.com/watch?v=GhaT78i1x2M")
 
 batman_begins = media.Movie(
 	"Batman Begins",
