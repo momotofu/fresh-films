@@ -26,3 +26,4 @@ class Movie():
         Open and view movie\'s the trailer in a webbrowser
         """
         webbrowser.open(self.trailer_url)
+
