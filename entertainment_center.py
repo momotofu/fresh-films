@@ -5,7 +5,7 @@ import fresh_tomatoes
 planet_earth = media.Movie(
     "Planet Earth",
     "A visual journey covering the wonders of planet Earth",
-    "https://i.pinimg.com/736x/98/2f/cc/982fcc3212d1dab93f99bee02725c9cc--planet-earth-documentary-bbc-planet-earth.jpg",  # NOQA
+    "https://i.pinimg.com/736x/98/2f/cc/982fcc3212d1dab93f99bee02725c9cc--planet-earth-documentary-bbc-planet-earth.jpg",
     "https://www.youtube.com/watch?v=tiVNk6_0GdY"
     )
 
@@ -22,7 +22,7 @@ natural_curiosities = media.Movie(
     "David Attenborough presents a collection of his favourite natural"
     " curiosities found throughout the animal kingdom from armoured giants"
     " to crafty insects.",
-    "https://image.tmdb.org/t/p/original/cd7eNiMyxHCRTdCYBTPAEQF7Ec3.jpg",  # NOQA
+    "https://image.tmdb.org/t/p/original/cd7eNiMyxHCRTdCYBTPAEQF7Ec3.jpg",
     "https://www.youtube.com/watch?v=hsHtu03G0e0"
     )
 
@@ -31,7 +31,7 @@ patterns_of_evidence = media.Movie(
     "What is the validity of history found in the Bible? Is it fact or"
     " fiction? What does the hard evidence really have to say about the"
     "foundational story of the Old Testament: the Exodus...",
-    "https://s-media-cache-ak0.pinimg.com/originals/8d/14/38/8d14381ea548684ba7fef6c218912afc.jpg",  # NOQA
+    "https://s-media-cache-ak0.pinimg.com/originals/8d/14/38/8d14381ea548684ba7fef6c218912afc.jpg",
     "https://www.youtube.com/watch?v=2assFIyLInE"
     )
 
@@ -84,7 +84,7 @@ the_matrix = media.Movie(
     "The Matrix",
     "A computer hacker learns from mysterious rebels about the true nature of"
     " his reality and his role in the war against its controllers.",
-    "https://images-na.ssl-images-amazon.com/images/I/51EG732BV3L.jpg",  # NOQA
+    "https://images-na.ssl-images-amazon.com/images/I/51EG732BV3L.jpg",
     "https://www.youtube.com/watch?v=m8e-FF8MsqU"
     )
 
