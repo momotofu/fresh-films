@@ -116,7 +116,7 @@ big_hero_six = media.Movie(
     "The special bond that develops between plus-sized inflatable robot Baymax"
     ", and prodigy Hiro Hamada, who team up with a group of friends to form a"
     " band of high-tech heroes.",
-    "https://a.dilcdn.com/bl/wp-content/uploads/sites/25/2014/06/Disney_BigHero6_Poster_Baymax.jpg",  # NOQA
+    "http://1ia9a526hj6j2wiwwe2eny7c.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Big-Hero-6.jpg",  # NOQA
     "https://www.youtube.com/watch?v=rD5OA6sQ97M"
     )
 
