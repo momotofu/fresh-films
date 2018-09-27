@@ -87,7 +87,7 @@ the_matrix = media.Movie(
     "A computer hacker learns from mysterious rebels about the true nature of"
     " his reality and his role in the war against its controllers.",
     "https://images-na.ssl-images-amazon.com/images/I/51EG732BV3L.jpg",
-    "https://www.youtube.com/watch?v=m8e-FF8MsqU"
+    "https://www.youtube.com/embed/m8e-FF8MsqU?autoplay=1&html5=1"
     )
 
 the_karate_kid = media.Movie(
