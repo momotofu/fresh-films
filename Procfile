@@ -1,1 +1,1 @@
-python3 entertainment_center.py
+python entertainment_center.py
