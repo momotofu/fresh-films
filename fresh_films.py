@@ -6,7 +6,7 @@ import re
 main_page_head = '''
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>Fresh films</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -103,9 +103,9 @@ main_page_content = '''
     <!-- Main Page Content -->
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+        <div class="container" style="display:flex;justify-content:center;">
+          <div class="navbar-header" style="display:flex;justify-content:center;">
+            <a class="navbar-brand" style="display:flex" href="#">Fresh Films</a>
           </div>
         </div>
       </div>
@@ -150,17 +150,17 @@ def create_movie_tiles_content(movies):
     return content
 
 
-def open_movies_page(movies):
+def generate_movies_page(movies):
     """
     Combines movie string templates with
     enclosing page content. Writes the
-    code to fresh_tomatoes.html, and then
-    opens a browser with a local path to
-    fresh_tomatoes.html.
+    code to fresh_films.html. If --dev flag then
+    the program opens a browser with a local path to
+    "index.html".
     """
 
     # Create or overwrite the output file
-    output_file = open('fresh_tomatoes.html', 'w')
+    output_file = open('index.html', 'w')
 
     # Replace the placeholder for the movie tiles with
     # the actual dynamically generated content
@@ -171,6 +171,7 @@ def open_movies_page(movies):
     output_file.close()
 
     # open the output file in the browser
-    url = os.path.abspath(output_file.name)
-    webbrowser.open('file://' + url, new=2)  # open in a new tab, if possible
+    if 'dev' in os.environ['CLI_ARGS']:
+        url = os.path.abspath(output_file.name)
+        webbrowser.open('file://' + url, new=2)  # open in a new tab, if possible
 
