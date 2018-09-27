@@ -1,5 +1,7 @@
 import media
-import fresh_tomatoes
+import fresh_films
+import os, json
+from utils import get_cli_args
 
 # Create variables to hold media.Movie data structures
 planet_earth = media.Movie(
@@ -148,6 +150,8 @@ movies_list = [
     prince_of_egypt
     ]
 
-# Serve html page in a browser containing movies
-fresh_tomatoes.open_movies_page(movies_list)
+if __name__ == '__main__':
+    os.environ['CLI_ARGS'] = json.dumps(get_cli_args())
 
+    # Generate index.html
+    fresh_films.generate_movies_page(movies_list)
